@@ -1,0 +1,52 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools",
+]
+
+[tool.setuptools]
+packages = [
+    "bayeso_metrics",
+]
+
+[project]
+name = "bayeso-metrics"
+version = "0.1.0"
+authors = [
+    {name = "Jungtaek Kim", email = "jungtaek.kim.mail@gmail.com"},
+]
+description = "Geometric metrics for Bayesian optimization"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "scikit-learn",
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://bayeso.org"
+Source = "https://github.com/jungtaekkim/bayeso-metrics"
+Issues = "https://github.com/jungtaekkim/bayeso-metrics/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "wheel",
+    "build",
+    "twine",
+]
+
+examples = [
+    "bayeso",
+    "bayeso-benchmarks",
+    "matplotlib",
+]

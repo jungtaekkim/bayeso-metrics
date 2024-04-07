@@ -1,0 +1,26 @@
+from bayeso_metrics.metric_instantaneous_regret import instantaneous_regret
+from bayeso_metrics.metric_instantaneous_regret import instantaneous_regrets
+
+from bayeso_metrics.metric_simple_regret import simple_regret
+from bayeso_metrics.metric_simple_regret import simple_regrets
+
+from bayeso_metrics.metric_cumulative_regret import cumulative_regret
+from bayeso_metrics.metric_cumulative_regret import cumulative_regrets
+
+from bayeso_metrics.metric_precision import precision
+from bayeso_metrics.metric_recall import recall
+from bayeso_metrics.metric_average_degree import average_degree
+from bayeso_metrics.metric_average_distance import average_distance
+
+from bayeso_metrics.metric_parameter_free_precision import parameter_free_precision
+from bayeso_metrics.metric_parameter_free_recall import parameter_free_recall
+from bayeso_metrics.metric_parameter_free_average_degree import parameter_free_average_degree
+from bayeso_metrics.metric_parameter_free_average_distance import parameter_free_average_distance
+
+
+__version__ = '0.1.0'
+
+pf_precision = parameter_free_precision
+pf_recall = parameter_free_recall
+pf_average_degree = parameter_free_average_degree
+pf_average_distance = parameter_free_average_distance
