@@ -18,7 +18,7 @@ from bayeso_metrics.metric_parameter_free_average_degree import parameter_free_a
 from bayeso_metrics.metric_parameter_free_average_distance import parameter_free_average_distance
 
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 pf_precision = parameter_free_precision
 pf_recall = parameter_free_recall

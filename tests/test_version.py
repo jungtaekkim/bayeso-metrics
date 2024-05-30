@@ -1,4 +1,4 @@
-STR_VERSION = '0.1.0'
+STR_VERSION = '0.1.1'
 
 
 def test_version_bayeso_metrics():
