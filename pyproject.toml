@@ -13,7 +13,7 @@ packages = [
 name = "bayeso-metrics"
 version = "0.1.0"
 authors = [
-    {name = "Jungtaek Kim", email = "jungtaek.kim.mail@gmail.com"},
+    {name = "Anonymous Author(s)", email = "anonymous@anonymous.anonymous"},
 ]
 description = "Geometric metrics for Bayesian optimization"
 readme = "README.md"
@@ -31,11 +31,6 @@ classifiers = [
     "Topic :: Scientific/Engineering",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
-
-[project.urls]
-Homepage = "https://bayeso.org"
-Source = "https://github.com/jungtaekkim/bayeso-metrics"
-Issues = "https://github.com/jungtaekkim/bayeso-metrics/issues"
 
 [project.optional-dependencies]
 dev = [
