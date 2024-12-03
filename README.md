@@ -1,7 +1,3 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/jungtaekkim/bayeso/main/docs/_static/assets/logo_bayeso_capitalized.svg" width="400" />
-</p>
-
 # Beyond Regrets: Geometric Metrics for Bayesian Optimization
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
